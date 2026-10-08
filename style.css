@@ -1,0 +1,196 @@
+body{
+    background-color: #FFCB56;
+    
+}
+.heading{
+   font-family: 'Great Vibes', cursive;
+   text-align: center;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 30px;
+  
+}
+
+.card {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#FFEDB9;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  padding: 2px;
+  margin: 8px 0;
+ 
+
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container {
+  padding: 2px 14px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h4 {
+  margin-top: auto;
+}
+
+.card p {
+  margin: 14px 0;
+}
+.ch{
+    text-align: center;
+    font-family: cursive;
+}
+.price{
+    text-align: center;
+    font-family:cursive;
+}
+.about{
+
+    text-align: center;
+    font-family: cursive;
+}
+.tag{
+    font-style: italic;
+    font-weight: bold;
+}
+.para{
+ font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:#FFEDB9;
+  border-radius: 20px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+.navi{
+    color: black;
+}
+ .search-container{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(14px);
+  margin-top: 20px;
+
+ }
+ .about-card{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+
+ }
+ .para{
+
+   font-family: cursive;
+ }
+  .tag{
+
+    font-family: cursive;
+  }
+  p{
+    font-family: cursive;
+  }
+  .contact-heading{
+   text-align: center;
+   font-family: cursive;
+  }
+  .contact-card{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 20px;
+    width: 1050px;
+    height: 40%;
+    position: relative;
+  }
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+li{
+font-family: cursive;
+
+}
+.cnumber {
+  padding: 20px;
+  width: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(14px);
+}
+
+.cnumber p {
+  white-space: nowrap;
+}   
+.hours {
+  padding: 20px;
+  width: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(14px);
+}
+
+.hours p {
+  white-space: nowrap;
+}   
+.location {
+  padding: 20px;
+  width: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(14px);
+}
+
+.location p {
+  white-space: nowrap;
+}   
+.c-box{
+display: flex;
+flex-direction: column;
+gap: 90px;
+padding: 40px;
+}
+.logo.img{
+  size: 20px;
+}
