@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biriyani Kada — authentic Kerala dum biriyani crafted with the finest basmati rice, hand-picked spices and slow-cooked meats.">
+    <title>BIRIYANI KADA — Authentic Dum Biriyani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+
+    <!-- ==================== Preloader ==================== -->
+    <div class="preloader" id="preloader" aria-hidden="true">
+        <div class="preloader-inner">
+            <img src="1.png" alt="" class="preloader-logo">
+            <div class="loader-track"><span class="loader-fill"></span></div>
+            <p class="preloader-text">Biriyani Kada</p>
+        </div>
+    </div>
+
+    <!-- ==================== Navbar ==================== -->
+    <header class="navbar" id="navbar">
+        <nav class="nav container">
+            <a class="brand" href="#home" aria-label="Biriyani Kada — home">
+                <img src="1.png" alt="Biriyani Kada logo" class="brand-logo">
+                <span class="brand-name">Biriyani <em>Kada</em></span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#menu">Menu</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#contact-heading">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a class="btn btn-gold btn-sm nav-cta" href="#contact-heading">Order Now</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==================== Hero ==================== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <p class="hero-eyebrow reveal">Authentic Kerala Dum Biriyani</p>
+            <h1 class="hero-title reveal">BIRIYANI <span>KADA</span></h1>
+            <p class="hero-tag reveal">&ldquo;Cooked with love. Served with pride.&rdquo;</p>
+
+            <div class="hero-actions reveal">
+                <a class="btn btn-gold" href="#menu">Explore Menu</a>
+                <a class="btn btn-ghost" href="#contact-heading">Find Us</a>
+            </div>
+
+            <div class="hero-stats reveal">
+                <div class="stat">
+                    <span class="stat-num" data-count="3">0</span>
+                    <span class="stat-label">Signature<br>Biriyanis</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="12">0</span>
+                    <span class="stat-label">Hours Fresh<br>Every Day</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="100">0</span>
+                    <span class="stat-label">% Hand-picked<br>Spices</span>
+                </div>
+            </div>
+        </div>
+
+        <a class="scroll-hint" href="#menu" aria-label="Scroll down to the menu"><span></span></a>
+    </section>
+
+    <!-- ==================== Menu ==================== -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-eyebrow">Our Specials</p>
+                <h2 class="section-title">Your favourite biriyani is&hellip;</h2>
+
+                <div class="search-wrap">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search biriyani&hellip;" aria-label="Search biriyani">
+                </div>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <article class="dish-card reveal" data-name="thalassery biriyani">
+                    <div class="dish-media">
+                        <img src="tb.png" alt="Thalassery Biriyani">
+                        <span class="dish-badge">Bestseller</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3 class="dish-title">Thalassery Biriyani</h3>
+                        <p class="dish-desc">Kaima rice slow-cooked with Malabar spices and tender meat.</p>
+                        <div class="dish-foot">
+                            <span class="dish-price">&#8377;180</span>
+                            <button class="btn btn-gold btn-sm order-btn" type="button" data-dish="Thalassery Biriyani">Order</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal" data-name="kolkata biriyani">
+                    <div class="dish-media">
+                        <img src="kb.png" alt="Kolkata Biriyani">
+                        <span class="dish-badge">With Potato</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3 class="dish-title">Kolkata Biriyani</h3>
+                        <p class="dish-desc">Fragrant basmati layered with potato, egg and saffron.</p>
+                        <div class="dish-foot">
+                            <span class="dish-price">&#8377;190</span>
+                            <button class="btn btn-gold btn-sm order-btn" type="button" data-dish="Kolkata Biriyani">Order</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal" data-name="hyderabadi biriyani">
+                    <div class="dish-media">
+                        <img src="hb.png" alt="Hyderabadi Biriyani">
+                        <span class="dish-badge">Dum Special</span>
+                    </div>
+                    <div class="dish-body">
+                        <h3 class="dish-title">Hyderabadi Biriyani</h3>
+                        <p class="dish-desc">Classic kacchi dum style with mint, saffron and fried onion.</p>
+                        <div class="dish-foot">
+                            <span class="dish-price">&#8377;170</span>
+                            <button class="btn btn-gold btn-sm order-btn" type="button" data-dish="Hyderabadi Biriyani">Order</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="no-results" id="noResults" hidden>No biriyani matches your search — try &ldquo;thalassery&rdquo;, &ldquo;kolkata&rdquo; or &ldquo;hyderabadi&rdquo;.</p>
+        </div>
+    </section>
+
+    <!-- ==================== About ==================== -->
+    <section class="section about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-media reveal">
+                <img src="kb.png" alt="Signature biriyani served at Biriyani Kada">
+                <div class="about-media-card">
+                    <span class="about-media-big">100%</span>
+                    <span class="about-media-small">Fresh, small-batch dum biriyani</span>
+                </div>
+            </div>
+
+            <div class="about-text reveal">
+                <p class="section-eyebrow">About Us</p>
+                <h2 class="section-title">More than a meal — a tradition.</h2>
+                <p>At Biriyani Kada, we believe biryani is more than just a meal — it's a tradition. Rooted in the rich culinary heritage of Kerala, we specialise in authentic dum biryani crafted with the finest long-grain basmati rice, hand-picked spices, and tender, slow-cooked meats.</p>
+                <p>Every plate we serve is prepared fresh, in small batches, using time-honoured recipes that balance aroma, flavour, and texture to perfection. From our signature chicken, mutton, beef, egg, and vegetable biryanis to traditional Kerala sides like salna, chutneys, and pickles, each dish is a celebration of Malabar's vibrant food culture.</p>
+                <p>Whether you're craving a quick, comforting lunch or planning a special family daawat, Biriyani Kada brings the warmth of a home-cooked biryani to your table — fresh, generous, and full of flavour, every single time.</p>
+                <p class="tag">&ldquo;Cooked with love. Served with pride.&rdquo;</p>
+
+                <ul class="about-points">
+                    <li>Authentic dum process, sealed &amp; slow-cooked</li>
+                    <li>Finest long-grain basmati &amp; kaima rice</li>
+                    <li>Traditional Kerala sides — salna, chutneys, pickles</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Contact ==================== -->
+    <section class="section contact-section" id="contact-heading">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-eyebrow">Get In Touch</p>
+                <h2 class="section-title">Contact Us</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-photo reveal">
+                    <img src="hero.avif" alt="Biriyani Kada restaurant">
+                    <div class="contact-photo-glow"></div>
+                </div>
+
+                <div class="contact-cards">
+                    <a class="info-card reveal" href="tel:+919945544547">
+                        <span class="info-icon"><img src="call.png" alt=""></span>
+                        <span class="info-body">
+                            <span class="info-title">Call Us</span>
+                            <span class="info-value">+91 99455 44547</span>
+                        </span>
+                    </a>
+
+                    <div class="info-card reveal">
+                        <span class="info-icon"><img src="Hour-Glass.png" alt=""></span>
+                        <span class="info-body">
+                            <span class="info-title">Hours</span>
+                            <span class="info-value">All Day &middot; 11 AM – 11 PM</span>
+                        </span>
+                    </div>
+
+                    <div class="info-card reveal">
+                        <span class="info-icon"><img src="location.png" alt=""></span>
+                        <span class="info-body">
+                            <span class="info-title">Location</span>
+                            <span class="info-value">Near Lavanya Nagar, Kakanad</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Footer ==================== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <img src="1.png" alt="" class="footer-logo">
+            <p class="footer-brand">Biriyani <em>Kada</em></p>
+            <p class="footer-tag">&ldquo;Cooked with love. Served with pride.&rdquo;</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-heading">Contact</a></li>
+            </ul>
+            <p class="footer-copy">&copy; <span id="year">2026</span> Biriyani Kada. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== Floating UI ==================== -->
+    <button class="to-top" id="toTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="advanced.js"></script>
+
+</body>
+</html>
